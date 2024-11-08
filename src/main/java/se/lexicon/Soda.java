@@ -1,10 +1,10 @@
 package se.lexicon;
 
 
-public class Product3 extends Product {
+public class Soda extends Product {
     private String brand;
 
-    public Product3(double price, String productName, String brand) {
+    public Soda(double price, String productName, String brand) {
         super(price, productName);
         this.brand = brand;
     }

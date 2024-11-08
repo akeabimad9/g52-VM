@@ -1,19 +1,13 @@
 package se.lexicon;
 
 
-import se.lexicon.Product1;
-import se.lexicon.Product2;
-import se.lexicon.Product3;
-import se.lexicon.VendingMachine;
-import se.lexicon.VendingMachineImpl;
-
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Product1 candy = new Product1(10, "Candy", "Strawberry");
-        Product2 chips = new Product2(15, "Chips", 200);
-        Product3 soda = new Product3(20, "Soda", "Coca-Cola");
+        Candy candy = new Candy(10, "Candy", "Strawberry");
+        Chips chips = new Chips(15, "Chips", 200);
+        Soda soda = new Soda(20, "Soda", "Coca-Cola");
 
         VendingMachine vendingMachine = new VendingMachineImpl(Arrays.asList(candy, chips, soda));
 

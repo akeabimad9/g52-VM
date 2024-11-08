@@ -1,9 +1,9 @@
 package se.lexicon;
 
-public class Product2 extends Product {
+public class Chips extends Product {
     private int calories;
 
-    public Product2(double price, String productName, int calories) {
+    public Chips(double price, String productName, int calories) {
         super(price, productName);
         this.calories = calories;
     }
